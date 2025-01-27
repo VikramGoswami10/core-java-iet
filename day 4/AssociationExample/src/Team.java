@@ -9,7 +9,6 @@ public class Team { //pojo  bean
 	public Team() {
 		super();
 	}
-	
 	public Team(int tid, String tname, String coach, Player captain, Player[] plist) {
 		super();
 		this.tid = tid;
@@ -18,12 +17,11 @@ public class Team { //pojo  bean
 		this.captain = captain;
 		this.plist = plist;
 	}
-	
 	public int getTid() {
 		return tid;
 	}
 	public void setTid(int tid) {
-		this.tid = tid; 
+		this.tid = tid;
 	}
 	public String getTname() {
 		return tname;

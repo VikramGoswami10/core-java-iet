@@ -1,4 +1,4 @@
-package com.demo.test;
+	package com.demo.test;
 
 public class TestString2 {
 
@@ -18,6 +18,9 @@ public class TestString2 {
 		String s11="Happy Life";
 		
 		//System.out.println(s11.matches("fe$"));
+
+		
+
 	}
 
 }

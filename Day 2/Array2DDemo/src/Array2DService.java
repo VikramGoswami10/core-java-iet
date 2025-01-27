@@ -11,6 +11,7 @@ public class Array2DService {
 			for(int j=0;j<arr[i].length;j++) {
 				System.out.print("enter number"+i+","+j+"---->");
 				arr[i][j]=sc.nextInt();
+				
 			}
 		}
 		

@@ -14,8 +14,9 @@ public class PersonArrayService {
 		perarr[2]=new Person(14,"Revati","2222",new Date(1997,02,05));
 		cnt=3;
 	}
-	     
-	public static void addNewPerson(){
+	
+
+	public static void addNewPerson() {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enetr id");
 		int perid=sc.nextInt();
@@ -32,14 +33,14 @@ public class PersonArrayService {
 		Date dt=null;
 		try {
 			 dt=sdf.parse(bdate);
-		} catch (ParseException e) 
-		{
-
+		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		perarr[cnt]=new Person(perid,nm,mob,dt);
 		cnt++;
+		
+		
 	}
 
 
@@ -56,9 +57,10 @@ public class PersonArrayService {
 			    }
 		    }else {
 		    	return null;
-				    }
+		    }
 		}
-		return null;		
+		return null;
+		
 	}
 
 

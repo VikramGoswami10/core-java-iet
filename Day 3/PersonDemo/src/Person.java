@@ -2,7 +2,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Person {
-
 	private int perid;
 	private String pname;
 	private String mobile;
@@ -23,7 +22,7 @@ public class Person {
 		mobile=mob;
 		bdate=dt;
 	}
-	 public Person(int perid) {
+	public Person(int perid) {
 		this.perid=perid;
 		this.pname=null;
 		mobile=null;
@@ -66,7 +65,7 @@ public class Person {
 		//convert date to String
 		SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
 		String dt=sdf.format(bdate);
-		return "Id : " +this.perid+"\nName : "+pname+"\nMobile: "+mobile+"\nBDate: "+dt ;
+		return "Id : " +this.perid+"\nName : "+pname+"\nMobile: "+mobile+"\nBDate: "+dt;
 	}
 	
 	/*public void display() {

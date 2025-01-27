@@ -1,4 +1,3 @@
-
 import java.util.Date;
 
 public class TestPerson {
@@ -9,7 +8,7 @@ public class TestPerson {
 		System.out.println(p);
 		Person p1=new Person(13,"Rajan","33333",new Date());
 		//p1.display();
-		System.out.println(p1);   
+		System.out.println(p1);
 		
 
 	}

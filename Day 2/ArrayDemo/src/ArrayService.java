@@ -1,4 +1,4 @@
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class ArrayService {
 	  //accept values and store it in the array
@@ -30,7 +30,7 @@ public class ArrayService {
 		
 		public static int addAllEvenNumbers(int[] arr) {
 			int sum=0;
-			for(int n:arr) {		//for each loop
+			for(int n:arr) {
 				if(n%2==0)
 					sum=sum+n;
 			}

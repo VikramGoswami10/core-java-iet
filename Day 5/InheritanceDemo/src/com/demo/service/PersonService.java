@@ -30,8 +30,6 @@ public class PersonService {
 		System.out.println("enter birth date(dd/MM/yyyy)");
 		String dt=sc.next();
 		LocalDate ldt=LocalDate.parse(dt, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
-		
-		
 		if(ch==1 || ch==2) {
 			int[] mks=new int[2];
 			System.out.println("enetr marks1");
@@ -41,7 +39,7 @@ public class PersonService {
 			if(ch==1) {
 				System.out.println("enterspecial subject marks");
 				int  smarks=sc.nextInt();
-				sanrr[cnt]=ew GraduateStudent(id, nm, addr, ldt, mks, smarks);
+				sarr[cnt]=new GraduateStudent(id, nm, addr, ldt, mks, smarks);
 			}else {
 				System.out.println("enterthesis subject");
 				String tsub=sc.next();
@@ -58,11 +56,9 @@ public class PersonService {
 		
 		
 	}
-
 	public static Student[] displayAll() {
 		return sarr;
 	}
-	
 	public static float findGrade(int id) {
 		for(Student s:sarr) {
 			if(s!=null) {

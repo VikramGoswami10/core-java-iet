@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 abstract public class Student extends Person{
 	protected int[] marks;
+
 	public Student() {
 		System.out.println("in student default constructor");
 	}

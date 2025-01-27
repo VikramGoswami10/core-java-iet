@@ -25,7 +25,6 @@ public class TestShape {
 		int cntCircle=0;
 		int cntRectangle=0;
 		Shape[] sarr=ShapeService.getAllShapes();
-
 		for(int i=0;i<sarr.length;i++) {
 			if(sarr[i] instanceof Triangle) {
 				cntTraingle++;
@@ -42,4 +41,5 @@ public class TestShape {
 		System.out.println("Rectangle Count: "+cntRectangle);
 		
 	}
+
 }
